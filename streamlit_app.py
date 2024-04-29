@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from mtcnn import MTCNN
 
 # Load the trained model
-model = load_model('model.h5')  # Replace with your model path
+model = load_model('/model.h5')  # Replace with your model path
 
 # List of class names
 classes = ['Fair_Light', 'Medium_Tan', 'Dark_Deep']
